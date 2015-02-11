@@ -7,3 +7,5 @@ FHANDLER = open('war_and_peace.txt', 'r')
 WORDS = FHANDLER.read()
 
 FHANDLER.close()
+WORDCT = len(WORDS[3:566319])
+print WORDCT
