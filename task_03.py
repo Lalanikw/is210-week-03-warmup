@@ -4,3 +4,6 @@
 
 
 WILL_ROBINSON = 'Danger Will Robinson!'
+KLAXON = WILL_ROBINSON[:-14]
+print WILL_ROBINSON
+print KLAXON
