@@ -6,4 +6,4 @@
 NERVOUS_AS = """//////////A long-tailed cat in a room full of rockin' chairs.,,,,,,,,,, 
 """
 
-print NERVOUS_AS.strip('/')
+print NERVOUS_AS.strip(',').lstrip('/')
